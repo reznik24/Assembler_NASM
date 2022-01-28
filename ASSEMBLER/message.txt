@@ -1,0 +1,4 @@
+команды для компилирования ассемблера в терминале
+nasm -f elf64 -o COWS.o COWS.asm
+gcc -no-pie -o 177 COWS.o
+./177
